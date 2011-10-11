@@ -4,7 +4,36 @@
  * Copyright (c) 2010 Ken Wheeler / Jon Sykes
  * Dual licensed under the MIT and GPL licenses.
  * Free as in Bacon
- */
+ 
+************************************************************************************
+*  
+*  jTaB dynamic tab index generation plugin
+*  
+*  JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ     .             .               
+*  JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ  ..       .         ..  .      ...
+*  JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ.      ..  .  .   .  . . ..      ..
+*  ....    .JJJJJJI  . .. .  .    ..               .JJJJJJJJJJJJJJJJJJJJ=.   .  . .
+*  .      ..JJJJJJI . ..   .               ..       JJJJJJJJJJJJJJJJJJJJJJJ.       
+*   .. . . .JJJJJJI   .JJJJJJJJJJJJJJJJJJJJJJ$ . .. JJJJJJJJJJJJJJJJJJJJJJJJ7.     
+*      .  ..JJJJJJI    JJJJJJJJJJJJJJJJJJJJJJJJ     JJJJJJJJJJJJJJJJJJJJJJJJJ.     
+*  ... .   .JJJJJJI .  JJJJJJJJJJJJJJJJJJJJJJJJJ    JJJJJJJ.  . .    :JJJJJJJJ     
+*    .     .JJJJJJI ..            ..     JJJJJJJ    JJJJJJJ    ..... .JJJJJJJJ   ..
+*  .      ..JJJJJJI         .            IJJJJJJ..  JJJJJJJ.       .  JJJJJJJ,     
+*         ..JJJJJJI. .   . ............. IJJJJJJ. . JJJJJJJ.,,,,,,,,?JJJJJJJ+. ....
+*         ..JJJJJJI    .NJJJJJJJJJJJJJJJ.IJJJJJJ    JJJJJJJ OJJJJJJJJJJJJJJ....   .
+*     . .. .JJJJJJI.. $JJJJJJJJJJJJJJJJJ IJJJJJJ..  JJJJJJJ.OJJJJJJJJJJJJJJJ?  .  .
+*  .   .   .JJJJJJI  .JJJJJJJJJJJJJJJJJJ.IJJJJJJ.   JJJJJJJ.OJJJJJJJJJJJJJJJJJ     
+*  ..  . ...JJJJJJI  JJJJJJJJ.  . .  ....IJJJJJJ..  JJJJJJJ. ....    .$JJJJJJJJ.. .
+*   .. .   .JJJJJJI .JJJJJJZ  ..  .     .IJJJJJJ.   JJJJJJJ.    ..   . .JJJJJJJD.. 
+*      .   .JJJJJJI ,JJJJJJ.   .   .    .IJJJJJJ.   JJJJJJJ             JJJJJJJJ.  
+*      .   .JJJJJJI .JJJJJJJ  .         .IJJJJJJ.   JJJJJJJ            .JJJJJJJ8.  
+*   .     ..JJJJJJI .JJJJJJJJ..          IJJJJJJ.   JJJJJJJ           JJJJJJJJJ .. 
+*    .. .  .JJJJJJI ..JJJJJJJJJJJJJJJJJJJJJJJJJJ.   JJJJJJJJJJJJJJJJJJJJJJJJJJJ.   
+*     .    .JJJJJJI   IJJJJJJJJJJJJJJJJJJJJJJJJJ..  JJJJJJJJJJJJJJJJJJJJJJJJJJ.    
+*  J . .   .JJJJJJI . ..ZJJJJJJJJJJJJJJJJJJJJJJJ.   JJJJJJJJJJJJJJJJJJJJJJJJ. .    
+*  
+*  
+***********************************************************************************/
 
 // Script: jQuery jTaB: Dynamic Tab Index Management
 //
