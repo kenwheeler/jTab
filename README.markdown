@@ -1,22 +1,20 @@
 # jQuery PLUGIN: SHORT_DESCRIPTION #
-[http://benalman.com/projects/jquery-XXX-plugin/](http://benalman.com/projects/jquery-XXX-plugin/)
+[https://github.com/kdubbicles/jTab/](https://github.com/kdubbicles/jTab)
 
-Version: 1.0pre, Last updated: ?/??/2010
+Version: 1.0pre, Last updated: 10/10/2011
 
-jQuery PLUGIN does...
-
-Visit the [project page](http://benalman.com/projects/jquery-XXX-plugin/) for more information and usage examples!
+jQuery PLUGIN does 
 
 
 ## Documentation ##
-[http://benalman.com/code/projects/jquery-XXX/docs/](http://benalman.com/code/projects/jquery-XXX/docs/)
+[https://github.com/kdubbicles/jTab](https://github.com/kdubbicles/jTab)
 
 
 ## Examples ##
 These working examples, complete with fully commented code, illustrate a few
 ways in which this plugin can be used.
 
-[http://benalman.com/code/projects/jquery-XXX/examples/XXX/](http://benalman.com/code/projects/jquery-XXX/examples/XXX/)  
+[https://github.com/kdubbicles/jTab](https://github.com/kdubbicles/jTab)  
 
 ## Support and Testing ##
 Information about what version or versions of jQuery this plugin has been
@@ -30,7 +28,7 @@ reside (so you can test it yourself).
 Internet Explorer 6-8, Firefox 3-3.6, Safari 3-4, Chrome 3-5, Opera 9.6-10.5.
 
 ### Unit Tests ###
-[http://benalman.com/code/projects/jquery-XXX/unit/](http://benalman.com/code/projects/jquery-XXX/unit/)
+[https://github.com/kdubbicles/jTab](https://github.com/kdubbicles/jTab)
 
 
 ## Release History ##
@@ -39,6 +37,7 @@ Internet Explorer 6-8, Firefox 3-3.6, Safari 3-4, Chrome 3-5, Opera 9.6-10.5.
 
 
 ## License ##
-Copyright (c) 2010 "Cowboy" Ben Alman  
-Dual licensed under the MIT and GPL licenses.  
-[http://benalman.com/about/license/](http://benalman.com/about/license/)
+Copyright (c) 2011 Ken Wheeler / Jon Sykes
+Dual licensed under the MIT and GPL licenses.
+
+Free as in Bacon.
