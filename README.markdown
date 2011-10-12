@@ -1,9 +1,9 @@
-# jQuery PLUGIN: SHORT_DESCRIPTION #
+# jTab: jQuery Tab Direction #
 [https://github.com/kdubbicles/jTab/](https://github.com/kdubbicles/jTab)
 
-Version: 1.0pre, Last updated: 10/10/2011
+Version: 1.1pre, Last updated: 10/12/2011
 
-jQuery PLUGIN does 
+jTab allows users to define JSON based tab order for their elements.
 
 
 ## Documentation ##
@@ -11,15 +11,12 @@ jQuery PLUGIN does
 
 
 ## Examples ##
-These working examples, complete with fully commented code, illustrate a few
-ways in which this plugin can be used.
+Coming Soon
 
 [https://github.com/kdubbicles/jTab](https://github.com/kdubbicles/jTab)  
 
 ## Support and Testing ##
-Information about what version or versions of jQuery this plugin has been
-tested with, what browsers it has been tested in, and where the unit tests
-reside (so you can test it yourself).
+Coming Soon
 
 ### jQuery Versions ###
 1.4.3, 1.4.2, 1.3.2
@@ -33,7 +30,8 @@ Internet Explorer 6-8, Firefox 3-3.6, Safari 3-4, Chrome 3-5, Opera 9.6-10.5.
 
 ## Release History ##
 
-1.0pre   - (??/??/2010) Pre-Initial release
+1.0pre   - (10/10/2011) Pre-Initial release
+1.1pre   - (10/12/2011) Pre-Initial functionality
 
 
 ## License ##

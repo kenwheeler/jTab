@@ -37,7 +37,7 @@
 
 // Script: jQuery jTaB: Dynamic Tab Index Management
 //
-// *Version: 1.0pre, Last updated: ??/??/2010*
+// *Version: 1.1pre, Last updated: 10/12/2011*
 // 
 // GitHub       - http://github.com/kdubbicles/jTab/
 // Source       - http://github.com/kdubbicles/jTab/raw/master/jquery.ba-XXX.js
@@ -62,7 +62,8 @@
 // 
 // About: Release History
 // 
-// 1.0pre - (??/??/2010) Pre-Initial release
+// 1.0pre   - (10/10/2011) Pre-Initial release
+// 1.1pre   - (10/12/2011) Pre-Initial functionality
 
 var jTab = (function($) {
   
