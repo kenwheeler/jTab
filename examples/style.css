@@ -549,3 +549,21 @@ pre,
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
 }
+
+p {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+form {
+  width: 220px;
+}
+
+form input {
+  margin: 10px 0px;
+}
+
+form label {
+  font-weight: bold;
+  margin-right: 15px;
+}
