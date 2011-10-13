@@ -67,23 +67,17 @@
 
 var jTab = (function($) {
   
-      '$:nomunge'; // Used by YUI compressor.
+  '$:nomunge'; // Used by YUI compressor.
   
-      return {
-        
-        init: function(jsonData) {
-          var i = 1;
-          $.each(jsonData, function(i, item) {
-            $(item).each( function(index, el){
-              el.tabIndex = i;
-              console.debug(el);
-              i++;
-            })
-          });
-          
-          
-        }
-        
-      }
-      
+  return {
+    init: function(jsonData) {
+      var i = 1;
+      $.each(jsonData, function(i, item) {
+        $(item).each( function(index, el){
+          el.tabIndex = i;
+          i++;
+        })
+      });
+    }
+  }
 })(jQuery);
