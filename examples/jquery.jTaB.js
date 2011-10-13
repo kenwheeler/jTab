@@ -72,28 +72,15 @@ var jTab = (function($) {
       return {
         
         init: function(jsonData) {
+          var i = 1;
+          $.each(jsonData, function(i, item) {
+            $(item).each( function(index, el){
+              el.tabIndex = i;
+              console.debug(el);
+              i++;
+            })
+          });
           
-          for(i=0;i<jsonData.tabElements.length;i++) {
-            
-            $(jsonData.tabElements[i].elementId).bind('keydown', { prevElement: jsonData.tabElements[i].prevElementId, nextElement:  jsonData.tabElements[i].nextElementId} ,function(e) {
-              	                
-              if(e.which==9 && e.shiftKey) {
-                
-                e.preventDefault();
-                	                
-                $(e.data.prevElement).focus();
-                    
-              } else if (e.which==9) {
-                
-                e.preventDefault();
-                	                  
-                $(e.data.nextElement).focus();
-                
-              }
-              
-            });
-            
-          }
           
         }
         
