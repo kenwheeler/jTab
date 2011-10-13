@@ -70,8 +70,17 @@ var jTab = (function($) {
   '$:nomunge'; // Used by YUI compressor.
   
   return {
-    init: function(jsonData) {
+    init: function(jsonData, doDefaults) {
       j = 1;
+      
+      // reset default tab order by 
+      // setting all nodes tab index to 0
+      if(doDefaults === false){
+        $("*").each( function(i, item){
+          item.tabIndex = -1;
+        });
+      }
+      
       $.each(jsonData, function(i, item) {
         $(item).each( function(index, el){
           console.debug("Index "+j+": ", el)
